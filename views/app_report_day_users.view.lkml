@@ -93,6 +93,12 @@ view: app_report_day_users {
     sql: ${TABLE}.day ;;
   }
 
+  dimension: day_transfer {
+    type: date
+    datatype: date
+    sql: parse_date('%Y%m%d',cast(day as string)) ;;
+  }
+
   dimension_group: deleted {
     type: time
     timeframes: [
