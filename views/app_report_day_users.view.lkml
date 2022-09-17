@@ -89,7 +89,7 @@ view: app_report_day_users {
   }
 
   dimension: day {
-    type: string
+    type: number
     sql: ${TABLE}.day ;;
   }
 
