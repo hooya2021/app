@@ -209,6 +209,11 @@ view: app_user_log_details {
     sql: ${TABLE}.start_time ;;
   }
 
+  dimension: count_of_start_date {
+    type: number
+    sql:  COUNT(DISTINCT (TIMESTAMP_TRUNC(app_user_log_details.start_time , DAY))) ;;
+  }
+
   dimension_group: user_return_time {
     type: duration
     sql_start:${TABLE}.start_time;;
