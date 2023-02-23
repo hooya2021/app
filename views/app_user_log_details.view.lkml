@@ -78,6 +78,10 @@ view: app_user_log_details {
     ]
     sql: ${TABLE}.created_at ;;
   }
+  dimension: email {
+    type: string
+    sql: ${TABLE}.email ;;
+  }
 
   dimension_group: now {
     type: time
