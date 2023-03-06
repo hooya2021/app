@@ -248,6 +248,11 @@ view: app_user_log_details {
     sql: ${TABLE}.user_id ;;
   }
 
+  dimension: customer_group_id {
+    type: number
+    sql: ${TABLE}.group_id ;;
+  }
+
   measure: count {
     type: count
     drill_fields: [id]
