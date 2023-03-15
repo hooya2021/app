@@ -208,6 +208,136 @@ view: app_report_day_users {
     sql: ${TABLE}.total_visitor_num ;;
   }
 
+  dimension: month_13 {
+    type: number
+    sql:${TABLE}.mouth_13 ;;
+  }
+
+  dimension: month_12 {
+    type: number
+    sql:${TABLE}.mouth_12 ;;
+  }
+
+  dimension: month_11 {
+    type: number
+    sql:${TABLE}.mouth_11 ;;
+  }
+
+  dimension: month_10 {
+    type: number
+    sql:${TABLE}.mouth_10 ;;
+  }
+
+  dimension: month_9 {
+    type: number
+    sql:${TABLE}.mouth_9 ;;
+  }
+
+  dimension: month_8 {
+    type: number
+    sql:${TABLE}.mouth_8 ;;
+  }
+
+  dimension: month_7 {
+    type: number
+    sql:${TABLE}.mouth_7 ;;
+  }
+
+  dimension: month_6 {
+    type: number
+    sql:${TABLE}.mouth_6 ;;
+  }
+
+  dimension: month_5 {
+    type: number
+    sql:${TABLE}.mouth_5 ;;
+  }
+
+  dimension: month_4 {
+    type: number
+    sql:${TABLE}.mouth_4 ;;
+  }
+
+  dimension: month_3 {
+    type: number
+    sql:${TABLE}.mouth_3 ;;
+  }
+
+  dimension: month_2 {
+    type: number
+    sql:${TABLE}.mouth_2 ;;
+  }
+
+  dimension: month_1 {
+    type: number
+    sql:${TABLE}.mouth_1 ;;
+  }
+
+  dimension: week_13 {
+    type: number
+    sql:${TABLE}.week_13 ;;
+  }
+
+  dimension: week_12 {
+    type: number
+    sql:${TABLE}.week_12 ;;
+  }
+
+  dimension: week_11 {
+    type: number
+    sql:${TABLE}.week_11 ;;
+  }
+
+  dimension: week_10 {
+    type: number
+    sql:${TABLE}.week_10 ;;
+  }
+
+  dimension: week_9 {
+    type: number
+    sql:${TABLE}.week_9 ;;
+  }
+
+  dimension: week_8 {
+    type: number
+    sql:${TABLE}.week_8 ;;
+  }
+
+  dimension: week_7 {
+    type: number
+    sql:${TABLE}.week_7 ;;
+  }
+
+  dimension: week_6 {
+    type: number
+    sql:${TABLE}.week_6 ;;
+  }
+
+  dimension: week_5 {
+    type: number
+    sql:${TABLE}.week_5 ;;
+  }
+
+  dimension: week_4 {
+    type: number
+    sql:${TABLE}.week_4 ;;
+  }
+
+  dimension: week_3 {
+    type: number
+    sql:${TABLE}.week_3 ;;
+  }
+
+  dimension: week_2 {
+    type: number
+    sql:${TABLE}.week_2 ;;
+  }
+
+  dimension: week_1 {
+    type: number
+    sql:${TABLE}.week_1 ;;
+  }
+
   dimension_group: updated {
     type: time
     timeframes: [
